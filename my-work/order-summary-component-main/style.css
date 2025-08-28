@@ -1,0 +1,80 @@
+body{
+    background-color: hsl(225, 100%,94%);
+    background-image: url(my-work/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+.card{
+    background-color: white;
+    width:350px;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+}
+.hero-img{
+    width: 100%;
+    display: block;
+}
+.card-content{
+    padding: 25px;
+}
+.plan-box{
+    background-color: hsl(225,100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+.plan-details{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.plan-details img{
+    width: 40px;
+    height: 40px;
+}
+.plan-text{
+    line-height: 1.2;
+}
+.plan-text strong{
+    display: block;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.plan-text span{
+    color: hsl(224, 23%, 55%);
+}
+button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.proceed-btn{
+    background-color: hsl(245,75%,52%);
+    color: white;
+    margin-bottom: 10px;
+}
+.cancel-btn{
+    background: none;
+    color: hsl(224, 23%, 55%);
+}
+.proceed-btn:hover{
+    background-color: hsl(245,75%,65%);
+}
+.cancel-btn:hover{
+    color:hsl(223,47%, 23%)
+}
